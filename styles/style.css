@@ -1,0 +1,57 @@
+:root {
+  --background-navbar: #111821;
+}
+
+body {
+  background-color: #111821;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.shadow-nav {
+  box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 8px -1px rgba(0,0,0,0.75);
+  background: #121f3d;
+}
+
+.navbar-color {
+  background-color: var(--background-navbar);
+}
+
+.icon-color {
+  color: white;
+}
+
+.btn-color {
+  background-color: #48a97c;
+}
+
+.border-img {
+  border-color: #48a97c !important;
+}
+
+.experience {
+  position: relative;
+  padding-left: 1.5rem;
+}
+.experience::before {
+  content: "";
+  width: 5px;
+  height: 100%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: #54B689;
+}
+
+.card-tech p {
+  color: white !important;
+  text-align: center !important;
+  font-size: .7rem !important;
+}
+
+.navbar-menu {
+  display: flex !important;
+  justify-content:space-between !important;
+}
